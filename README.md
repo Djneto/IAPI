@@ -12,3 +12,17 @@ package.json
 
 tsconfig.json
 //"strict"
+
+Docker commands
+docker build -t name .
+docker ps
+docker run -p 3333:3333 name
+
+docker-compose up
+docker-compose up -d
+docker stop name
+
+docker logs name -f
+
+acesso
+docker exec it -it container_name /bin/bash
